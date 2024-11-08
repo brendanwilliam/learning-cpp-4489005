@@ -4,7 +4,7 @@
 #define COW_H
 #include <string>
 
-enum class cow_purpose {dairy, meat, hide, pet};
+enum class cow_purpose {pet, consultant, lawyer, politician};
 
 class cow{
 public:
@@ -13,6 +13,7 @@ public:
     int get_age();
     cow_purpose get_purpose();
     void set_age(int new_age);
+    void birthday();
 private:
     std::string name;
     int age;

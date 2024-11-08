@@ -1,10 +1,10 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "shell",
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
-            "args": [                
+            "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "-std=c++17",
